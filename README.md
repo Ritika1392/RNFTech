@@ -1,5 +1,12 @@
 # RNFTech
 
+To run the project do:
+
+  npm install -g serve
+  serve -s build
+  
+  ---------------------------------------------------------------------------------------------------------------------------
+
 Test project
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
