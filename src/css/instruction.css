@@ -1,0 +1,28 @@
+.instruction {
+    width: 1200px;
+    margin: 10px
+  } 
+   
+  ol {
+    color: #ccc;
+    list-style-type: circle;
+  }
+   
+  ol li {
+    position: relative;
+    font: bold italic 45px/1.5 Helvetica, Verdana, sans-serif;
+    margin-bottom: -100px;
+  }
+   
+  li p {
+    font: 20px/1.5 Helvetica, sans-serif;
+    padding-left: 300px;
+    color: #555;
+    margin: -75px;
+  }
+   
+  span {
+    position: absolute;
+    margin-bottom: -10px;
+    padding-left: -510px;
+  }

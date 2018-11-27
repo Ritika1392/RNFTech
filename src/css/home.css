@@ -1,0 +1,113 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  font-size: 25px;
+  line-height: 30px;
+  color: #777;
+  background:lightgray;
+}
+
+
+ .container {
+  max-width:800px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  
+  
+} 
+
+
+
+#contact {
+  background: #F9F9F9;
+  padding: 25px;
+  margin: 90px 0;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+
+#contact textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: blue;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+
+.copyright {
+  text-align: center;
+}
+
+#contact input:focus,
+
+.inlineList {
+    
+    color: black;
+    display: flex;
+    left: 10%;
+    font-size: 40px;
+    flex-direction: row;
+    justify-content: flex-start; 
+    list-style: none;
+    padding: 50;
+    position: relative;
+    white-space: nowrap;
+  }
+  li {
+    padding: 80px;
+    color: black;
+  }
+  
+  .chart { 
+    height: 400px; 
+    position: relative; 
+    border-left: 1px solid #d4d4d4;
+    margin: 15px auto 50px;
+    }
+
+  .radio{
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    
+  }
