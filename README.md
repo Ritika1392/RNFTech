@@ -2,9 +2,9 @@
 
 To run the project do:
 
-  npm install -g serve
+ 1) npm install -g serve
   
-  serve -s build
+ 2) serve -s build
   
   ---------------------------------------------------------------------------------------------------------------------------
 
